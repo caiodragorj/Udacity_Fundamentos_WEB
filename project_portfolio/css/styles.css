@@ -1,0 +1,45 @@
+/* Generic */
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 950px;
+    margin: 40px 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+.logo{
+    background: #000;
+    color: #fff;
+    width: 80px;
+    height: 110px;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+
+}
+
+.logo .logo-text{
+    display: block;
+}
+
+.logo .logo-hilight{
+    color: #7ac64d;
+}
+
+.title{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.title-02{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 700;
+}
