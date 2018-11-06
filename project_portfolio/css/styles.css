@@ -1,7 +1,7 @@
 /* Generic */
 body{
     font-family: 'Roboto', sans-serif;
-    max-width: 950px;
+    max-width: 1280px;
     margin: 40px 20px;
 }
 
@@ -11,6 +11,10 @@ img{
 }
 
 /* Header */
+header{
+    border-bottom: 5px solid #666;
+    margin-bottom: 20px;
+}
 .logo{
     background: #000;
     color: #fff;
@@ -19,6 +23,7 @@ img{
     font-size: 50px;
     text-transform: uppercase;
     padding: 5px 10px;
+    margin: auto;
 
 }
 
@@ -40,6 +45,95 @@ img{
 .title-02{
     font-size: 25px;
     text-transform: uppercase;
-    margin-top: 5px;
+    margin: 5px 0;
     font-weight: 700;
 }
+
+.title-03{
+    color: #666;
+    font-size: 18px;
+}
+
+/* Footer */
+
+ul, li{
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.text{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.list a{
+    font-size: 14px;
+    color: #7ac64d;
+    text-decoration: none;
+}
+
+.l-item{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Breakpoint 640px */
+
+@media (min-width: 600px){
+
+    body{
+        margin: 40px auto;
+        padding: 0 25px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    
+    .logo{
+        margin: 0;
+    }
+
+    .box-title{
+        padding-top: 20px;
+    }
+
+    .l-item img{
+        max-width: 80%;
+    }
+
+    .text{
+        font-size: 25px;
+    }
+
+    .list a{
+        font-size: 20px;
+    }
+
+    .title-03{
+        font-size: 22px;
+    }
+} 
+
+/* Break point 768 > */
+
+@media (min-width: 768px){
+    
+    .list{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .l-item{
+        margin: 0 5px;
+    }
+
+    .l-item img{
+        max-width: 100%;
+        margin-right: 10px;
+    }
+} 
